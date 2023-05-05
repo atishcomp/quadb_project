@@ -1,0 +1,147 @@
+
+.mobile_view_{
+    display: none;
+}
+.content_{
+    height: 500px;
+    width:90%;
+    border-radius:30px;
+    /* background-color: red; */
+    background-color: white;
+    margin-left: 5%;
+    margin-top: -100px;
+    align-items: start;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+.image_{
+    height: 230px;
+    width: 280px;;
+    /* background-color: pink; */
+    background-color: white;
+    z-index: 5;
+    position: absolute;
+    border-top-left-radius: 30px;
+}
+.details_{
+    height: 230px;
+    width:400px;
+    background-color: white;
+    /* background-color: green; */
+    margin-left: 300px;
+    align-items: self-start;
+    position: 'absolute';
+}
+.imgg_{
+    height: 300px;
+    width:auto;
+    border-radius: 20px;
+    margin-top: -100px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.movie_name_{
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.movie_rating_{
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.genre_{
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.release_{
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.book_now_{
+    text-align: left;
+    padding: 10px;
+    background: orange;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+.description_h{
+    text-align: left;
+    margin-left: 5%;
+
+}
+.description_{
+    text-align: left;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 850px) {
+
+  .desktop_view_{
+    display:none;
+  }
+  .mobile_view_{
+    display: table-row;
+}
+  
+  .mobile_content_{
+    height: 800px;
+    width:90%;
+    border-radius:30px;
+    background-color: white;
+    /* background-color: red; */
+    margin-left: 5%;
+    margin-top: -80px;
+    align-items: start;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+  
+  .mobile_imgg_{
+  margin-top: -80px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .mobile_movie_name_{
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .mobile_movie_rating_{
+    
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.mobile_genre_{
+    
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.mobile_release_{
+  
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+}

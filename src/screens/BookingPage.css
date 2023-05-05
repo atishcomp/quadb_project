@@ -1,0 +1,116 @@
+.movie_area{
+    height: 500px;;
+    width:800px;
+    background: whitesmoke;
+    margin-left: 250px;
+    position: absolute;
+    margin-top: 12vh;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.movie_images{
+    height: 500px;
+    width:400px;
+    background:black;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.movie_form{
+    height:500px;
+    width: 400px;
+    background: whitesmoke;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-left: 400px;
+    margin-top:-500px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.signup_button{
+    color:whitesmoke;
+    margin-left: 5px;
+    background:black;
+    width:260px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 15px;
+    outline:none;
+    border: none;
+}
+.back_btn_full{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: -48%;
+    background: black;
+    border-radius: 30px;
+    color: whitesmoke;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.signup_button:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+.signup_page{
+    margin-top: 5px;
+}
+.back_btn{
+    display: none;
+}
+.movie_mobile{
+    display: none;
+}
+.full_screen_movie{
+    height: 100vh;
+    width:100%;
+    background: whitesmoke;
+}
+
+
+@media only screen and (max-width:500px){
+    
+    .movie_area{
+        display: none;
+    }
+    .movie_mobile{
+        height: 100vh;
+        width: 100%;
+        background: black;
+    }
+    .back_btn{
+        color: whitesmoke;
+        font-size: 35px;
+        margin-top: 20px;
+        position: absolute;
+        margin-left: -45%;
+        display:inline;
+    }
+    .mobile_signup_bars{
+        position: absolute;
+        height: 60vh;
+        width: 100%;
+        background: whitesmoke;
+        margin-top: 40vh;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .signup_button{
+        margin-top: 20px;
+
+    }
+    .movie_mobile{
+        display: inline-block;
+    }
+    .full_screen_movie{
+        display: none;
+    }
+}
